@@ -10,9 +10,8 @@
     "eject": "react-scripts eject"
   },
   "type": "module",
-  "author": "Shubham",
-  "license": "ISC",
-  "exports": ["./index.js", "./index.jsx"],
+  "author": "Justin Gaudet",
+  "license": "MIT",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

@@ -23,11 +23,10 @@ const Home = ({ eventType }) => {
               </div>
               <br />
               <Details
-                name={'Shubham Singh'}
-                githubURL={'https://github.com/imshubhamsingh'}
-                projectURL={'https://github.com/imshubhamsingh/15-puzzle'}
-                linkedinURL={'https://linkedin.com/in/imshubhamsingh97/'}
-                twitterURL={'https://twitter.com/imshubhamsingh_'}
+                name={'Justin Gaudet'}
+                githubURL={'https://github.com/PunctualJustin'}
+                projectURL={'https://github.com/PunctualJustin/15-puzzle'}
+                linkedinURL={'https://www.linkedin.com/in/justin-gaudet/'}
               />
             </Fragment>
           );

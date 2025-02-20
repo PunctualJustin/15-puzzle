@@ -19,9 +19,6 @@ const Details = ({ name, githubURL, linkedinURL, twitterURL, projectURL }) => (
       <Profile href={linkedinURL} target="_blank">
         <Icon name="linkedin" />
       </Profile>
-      <Profile href={twitterURL} target="_blank">
-        <Icon name="twitter" />
-      </Profile>
     </div>
   </Footer>
 );
