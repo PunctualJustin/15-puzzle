@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Footer, Profile, Icon } from '@Elements';
+import { Footer, Profile, Icon } from '../../elements/index.js';
 
 const Details = ({ name, githubURL, linkedinURL, twitterURL, projectURL }) => (
   <Footer>

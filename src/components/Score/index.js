@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScoreContainer } from '@Elements';
+import { ScoreContainer } from '../../elements/index.js';
 
 const Score = ({ moves, seconds }) => {
   return (

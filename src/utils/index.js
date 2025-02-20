@@ -1,10 +1,10 @@
-import color from './color';
-import transition from './transition';
-import Portal from './portal';
-import elevation from './elevation';
+import color from './color.js';
+import transition from './transition.js';
+import Portal from './portal.js';
+import elevation from './elevation.js';
 
-export * from './color';
-export * from './game';
-export * from './keyframes';
+export * from './color.js';
+export * from './game.js';
+export * from './keyframes.js';
 
 export { color, transition, Portal, elevation };

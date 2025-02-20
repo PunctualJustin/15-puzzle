@@ -1,3 +1,3 @@
-import KeyBoardManagar from './keyboardManager';
+import KeyBoardManagar from './keyboardManager/index.js';
 
 export { KeyBoardManagar };

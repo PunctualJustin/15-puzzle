@@ -4,10 +4,10 @@ import {
   GameFactoryConsumer,
   GridOverlay,
   Icon
-} from '@Elements';
-import { color, gameState } from '@Utils';
+} from '../../elements/index.js';
+import { color, gameState } from '../../utils/index.js';
 
-import Cell from '../Cell';
+import Cell from '../Cell/index.js';
 
 export default class Grid extends Component {
   cellRender(number = [], clickMove) {

@@ -1,4 +1,14 @@
 node_modules
+node_modules_bck
+.parcel-cache
 .cache
 *-lock.json
 .lock
+dist
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

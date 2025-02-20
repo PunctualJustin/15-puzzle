@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { color } from '@Utils';
+import { color } from '../utils/index.js';
 
-import Waves from '@Image/waves.gif';
+import Waves from '../assets/img/waves.gif';
 
 export const GameInstruction = styled.span`
   display: block;

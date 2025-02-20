@@ -1,6 +1,6 @@
 import React, { Component, useState, useEffect } from 'react';
 
-import { CellContainer, NumberCellContainer } from '@Elements';
+import { CellContainer, NumberCellContainer } from '../../elements/index.js';
 const moveKey = ({ x, y }) => {
   const [moveX, handleX] = useState(0);
   const [moveY, handleY] = useState(0);

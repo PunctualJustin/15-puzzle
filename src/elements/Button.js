@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { color, transition } from '@Utils';
+import { color, transition } from '../utils/index.js';
 
 export const Button = styled.button`
   font-size: 22px;

@@ -5,11 +5,11 @@ import {
   PlayPauseContainer,
   Modal,
   ModalContainer
-} from '@Elements';
+} from '../../elements/index.js';
 import Score from '../Score';
 import Grid from '../Grid';
 
-import { gameState } from '@Utils';
+import { gameState } from '../../utils/index.js';
 export default class Game extends Component {
   componentDidUpdate(prevProps, prevState) {
     if (prevProps.eventType !== this.props.eventType) {

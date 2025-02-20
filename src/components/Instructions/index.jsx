@@ -4,8 +4,8 @@ import {
   Icon,
   Keys,
   GameInstructionContainer
-} from '@Elements';
-import { color } from '@Utils';
+} from '../../elements/index.js';
+import { color } from '../../utils/index.js';
 
 const KeyButton = ({ currentKey, index }) => {
   return (

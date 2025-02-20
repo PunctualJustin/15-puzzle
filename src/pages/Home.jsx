@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import { KeyBoardManagar } from '@HOC';
+import { KeyBoardManagar } from '../hoc/index.js';
 
-import { Instruction, Header, Game, Details } from '@Components';
-import { Container, Wave, GameFactoryConsumer } from '@Elements';
+import { Instruction, Header, Game, Details } from '../components/index.js';
+import { Container, Wave, GameFactoryConsumer } from '../elements/index.js';
 
-import Waves from '@Image/waves.gif';
+import Waves from '../assets/img/waves.gif';
 
 const Home = ({ eventType }) => {
   return (

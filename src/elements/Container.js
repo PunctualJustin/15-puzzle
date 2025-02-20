@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { color, transition, bounceIn, fadeIn } from '@Utils';
+import { color, transition, bounceIn, fadeIn } from '../utils/index.js';
 
 export const Container = styled.div`
   width: 500px;

@@ -7,7 +7,7 @@ import {
   shuffle,
   checkArray,
   gameState
-} from '@Utils';
+} from '../utils/index.js';
 
 const NEW_GAME = '__new_game__';
 const RESET_GAME = '__reset_game__';

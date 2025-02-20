@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import { Portal, elevation, bounceInUp, fadeIn, color } from '@Utils';
+import { Portal, elevation, bounceInUp, fadeIn, color } from '../utils/index.js';
 
 export default class Modal extends Component {
   render() {
