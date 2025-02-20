@@ -58,7 +58,7 @@ export const GridOverlay = styled.div`
   }
 `;
 
-export const PlayPauseContainer = styled.div`
+export const ScoreContainer = styled.div`
   padding: 0 15px;
 `;
 
@@ -208,7 +208,7 @@ export const Keys = styled.span`
   }
 `;
 
-export const GameScore = styled.div`
+export const GameButtons = styled.div`
   padding: 0 15px;
   display: flex;
   justify-content: space-between;
@@ -217,7 +217,7 @@ export const GameScore = styled.div`
   }
 `;
 
-export const ScoreContainer = styled.div`
+export const ScoreSubContainer = styled.div`
   background: ${color.gridTileColor};
   display: flex;
   margin-left: 10px;

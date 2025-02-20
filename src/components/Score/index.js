@@ -1,9 +1,9 @@
 import React from 'react';
-import { ScoreContainer } from '../../elements/index.js';
+import { ScoreSubContainer } from '../../elements/index.js';
 
 const Score = ({ moves, seconds }) => {
   return (
-    <ScoreContainer>
+    <ScoreSubContainer>
       <div className="time">
         <div className="score-title">Time</div>
         <div className="time-container">{seconds}s</div>
@@ -16,7 +16,7 @@ const Score = ({ moves, seconds }) => {
         <div className="score-title">best</div>
         <div className="best-container">123s 10Moves</div>
       </div> */}
-    </ScoreContainer>
+    </ScoreSubContainer>
   );
 };
 

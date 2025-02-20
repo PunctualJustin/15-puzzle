@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {
-  GameScore,
+  GameButtons,
   Button,
-  PlayPauseContainer,
+  ScoreContainer,
   Modal,
   ModalContainer
 } from '../../elements/index.js';
@@ -27,22 +27,21 @@ export default class Game extends Component {
   render() {
     return (
       <div>
-        <GameScore>
+        <GameButtons>
           <Button onClick={this.props.resetGame}>new game</Button>
-          <Score moves={this.props.moves} seconds={this.props.seconds} />
-        </GameScore>
-
-        <Grid />
-
-        <PlayPauseContainer>
           <Button
-            type="big"
             onClick={this.props.pauseGame}
             disabled={this.props.gameState === gameState.GAME_IDLE}
           >
             {this.props.gameState === gameState.GAME_PAUSED ? 'Play' : 'Pause'}
           </Button>
-        </PlayPauseContainer>
+        </GameButtons>
+
+        <Grid />
+
+        <ScoreContainer>
+          <Score moves={this.props.moves} seconds={this.props.seconds} />
+        </ScoreContainer>
         <Modal on={this.props.gameState === gameState.GAME_OVER}>
           <ModalContainer>
             <div className="text-1">Excellent!</div>
